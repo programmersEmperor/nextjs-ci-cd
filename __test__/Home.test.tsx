@@ -5,7 +5,7 @@ describe("Home", ()=>{
     it("should have a Docs text", ()=>{
         render(<Home/>)
     
-        const myElment = screen.getByText("Docs")
+        const myElment = screen.getByText("xa")
     
         expect(myElment).toBeInTheDocument()
     })
