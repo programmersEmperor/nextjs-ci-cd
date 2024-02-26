@@ -8,8 +8,7 @@ describe("Home", ()=>{
         const myElment = screen.getByText("Docs")
     
         expect(myElment).toBeInTheDocument()
-    })
-    
+    })  
 
     it("should have a heading", ()=>{
         render(<Home/>) 
