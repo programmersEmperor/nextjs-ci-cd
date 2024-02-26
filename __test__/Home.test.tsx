@@ -11,7 +11,7 @@ describe("Home", ()=>{
     })
 
     it("should have a heading", ()=>{
-        render(<Home/>)
+        render(<Home/>) 
     
         const myElment = screen.getByText("Deploy")
     
